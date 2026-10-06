@@ -7,6 +7,9 @@ public class npc{ //placeholder name
       this.name = name;
       this.aRating = aRating;
       this.faction = faction;
+      this.tGoods = 0;
+      this.vPoints = 0;
+      this.commodities = 0;
    }
    
   //info methods
