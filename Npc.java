@@ -16,6 +16,12 @@ public class npc{ //placeholder name
    public int getCommodities(){
       return commodities;
    } 
+    public int getPoints(){
+      return vPoints;
+   }
+   public String getName(){
+      return name;
+   } 
    
   //set methods
    public void exCommodities(int exchanged){ //method to transform npc commodities into trade goods
